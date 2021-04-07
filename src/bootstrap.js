@@ -1,5 +1,5 @@
-import { mount } from "products/ProductsIndex";
-import { mount } from "cart/CartShow";
+import { mount as ProductMount } from "products/ProductsIndex";
+import { mount as CartMount } from "cart/CartShow";
 console.log("container");
-mount(document.getElementById("my-products"));
-mount(document.getElementById("my-cart"));
+ProductMount(document.getElementById("my-products"));
+CartMount(document.getElementById("my-cart"));
